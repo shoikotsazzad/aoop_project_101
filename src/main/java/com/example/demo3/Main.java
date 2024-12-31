@@ -35,7 +35,7 @@ public class Main extends Application {
         primaryStage.setResizable(false);
         primaryStage.show();
 
-        // Setup the game and start the game thread
+        //Setup the game and start the game thread
         gamePanel.setupGame(gc);
         gamePanel.startGameThread();
     }
